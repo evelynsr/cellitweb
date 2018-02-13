@@ -16,7 +16,7 @@ Installation Windows
 ------------
 - Restore the downloaded database (cellit.bak) in SQL Server
 
-- Clone: https://github.com/airsoftware-mx/cellit.git inside the "htdocs" folder. (Path: C:\xampp\htdocs)
+- Clone: git clone https://github.com/airsoftware-mx/cellit.git inside the "htdocs" folder. (Path: C:\xampp\htdocs)
 - After unzipping cellit.rar you must copy folder "vendor" and paste inside your cloned project
 - The same with the file "config.ini", you must obtain it from the previously unzippinp folder and paste in the following path of your "cellit" project: C:\xampp\htdocs\cellit_v3\config\autoload
 - Open the config.ini file, change the parameters dev.cell.server, dev.cellit.user and dev.cellit.pass, corresponding to your instance in SQL Server.
