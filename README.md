@@ -5,6 +5,7 @@ Introduction
 Web application for the mobile device trade-in process
 
 You will need to download and install:
+------------
 - node
 - web server, like xampp
 - SQL Server
