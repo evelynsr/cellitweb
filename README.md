@@ -1,7 +1,11 @@
 ![logo](https://user-images.githubusercontent.com/4268634/37671312-127709d0-2c31-11e8-8626-f4ff7bdc5ade.png)
 # BgMobile
 
-The BgMobile Web application is developed to work together with Pervacio Trade-In to manage the repurchase of mobile devices.
+The BgMobile Web application is developed to work together with Pervacio Trade-In to manage the repurchase of mobile devices. Uses the following technologies:
+- Zend Framework 2
+- Grunt 0.4.5
+- Angular JS 1
+- CSS3
 
 ------------
 ## Getting Started
