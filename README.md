@@ -17,18 +17,19 @@ These instructions will get you a copy of the project up and running on your loc
 - Cellit Database. File .bak
 - File config.ini. Create a file "config.ini" inside place the following, changing parameters for your own configuration
 ------------------------------
-; Execute in dev|prod
-environment = dev
-sqlsrvlang = en
-; sqlsrvlang = es
-; App Version
-version = 2
-
-; Pronoi Dev configuration data
-dev.cellit.server  = servername
-dev.cellit.db      = databasename
-dev.cellit.user    = username
-dev.cellit.pass    = password
+          
+          ; Execute in dev|prod
+          environment = dev
+          sqlsrvlang = en
+          ; sqlsrvlang = es
+          ; App Version
+          version = 2
+          
+          ; Pronoi Dev configuration data
+          dev.cellit.server  = servername
+          dev.cellit.db      = databasename
+          dev.cellit.user    = username
+          dev.cellit.pass    = password
 
 Now save inside C:\xampp\htdocs\cellit_v3\config\autoload
 
