@@ -32,4 +32,12 @@ These instructions will get you a copy of the project up and running on your loc
 ![exito](https://user-images.githubusercontent.com/4268634/37685446-25cab748-2c59-11e8-86bf-ed6f5157f793.PNG)
 ------------
 ### Possible Mistakes
-Xampp is missing the .dll to connect to SQL Server. 
+Xampp is missing the .dll to connect to SQL Server.
+#### Solution
+1. Download 3.2 of the SQLSRV drivers from here.
+https://www.microsoft.com/en-us/download/details.aspx?id=20098
+2. Do extract them to your "xampp installation path"\php\ext
+3. Kindly ensure you see and keep the files : php_sqlsrv_56_ts.dll and php_pdo_sqlsrv_56_ts.dll
+4. Restart your XAMPP server.
+
+
