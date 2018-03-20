@@ -1,8 +1,7 @@
-##BgMobile
+## BgMobile
 
-=======================
-![logo BgMobile](https://user-images.githubusercontent.com/4268634/37671312-127709d0-2c31-11e8-8626-f4ff7bdc5ade.png)
-
+![logo](https://user-images.githubusercontent.com/4268634/37671312-127709d0-2c31-11e8-8626-f4ff7bdc5ade.png)
+------------
 Introduction
 ------------
 Web application for the mobile device trade-in process
