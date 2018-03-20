@@ -8,20 +8,36 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 ------------
-- Git, download from here https://git-scm.com/download/win
 - Node JS, download from here https://nodejs.org/en/download
 - GruntJS, run your command shell as Administrator (for Windows) npm install -g grunt-cli.
 - Web server. It can be xampp, that contains Apache and PHP 5.6. You could also install it separately.
 - SQL Server 2012. Version 11.0.2. https://www.microsoft.com/en-US/download/details.aspx?id=29062
-- cellit.rar, download from here http://189.212.132.188/downloads/
-- Cellit Database. File .bak 
+- cellit.rar. Contains the Project BgMobile. Download from http://bgmobile.com.mx/sso/cellit.rar
+- vendor.rar. Contains the framework ZF2 and additional tools, this is not versioned, so it's manual. Download from here http://bgmobile.com.mx/sso/vendor.rar
+- Cellit Database. File .bak
+- File config.ini. Create a file "config.ini" inside place the following, changing parameters for your own configuration
+------------------------------
+; Execute in dev|prod
+environment = dev
+sqlsrvlang = en
+; sqlsrvlang = es
+; App Version
+version = 2
+
+; Pronoi Dev configuration data
+dev.cellit.server  = servername
+dev.cellit.db      = databasename
+dev.cellit.user    = username
+dev.cellit.pass    = password
+
+Now save inside C:\xampp\htdocs\cellit_v3\config\autoload
 
 ### Installing Windows
 ------------
 - Restore the downloaded database (cellit.bak) in SQL Server
-- Clone: git clone git clone -b dev-esr https://github.com/airsoftware-mx/cellit.git inside the "htdocs" folder. (Path: C:\xampp\htdocs)
-- Change folder name cellit (cloned project) to cellit_v3
-- After unzipping cellit.rar you must copy folder "vendor" and paste inside your cloned project
+- Copy the downloaded "cellit" folder inside the "htdocs" folder. (Path: C:\xampp\htdocs)
+- Change folder name "cellit" to "cellit_v3"
+- After unzipping vendor.rar you must copy folder "vendor" and paste inside your cellit_v3 project
 - The same with the file "config.ini", you must obtain it from the previously unzippinp folder and paste in the following path of your "cellit" project: C:\xampp\htdocs\cellit_v3\config\autoload
 - Open the config.ini file, change the parameters dev.cell.server, dev.cellit.user and dev.cellit.pass, corresponding to your instance in SQL Server.
 - In a console, position yourself on the project path (C: \ xampp \ htdocs \ cellit_v3) and execute the following command:
