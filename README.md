@@ -2,15 +2,17 @@
 # BgMobile
 The BgMobile Web application is developed to work together with Pervacio Trade-In to manage the repurchase of mobile devices.
 ------------
-Introduction
+## Getting Started
 ------------
-Web application for the mobile device trade-in process
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-You will need to download and install:
+### Prerequisites
 ------------
-- node
-- web server, like xampp
-- SQL Server
+- Git, download from here https://git-scm.com/download/win
+- Node JS, download from here https://nodejs.org/en/download
+- GruntJS, run your command shell as Administrator (for Windows) npm install -g grunt-cli.
+- Web server. It can be xampp, that contains Apache and PHP 5.6. You could also install it separately.
+- SQL Server 2012. Version 11.0.2. https://www.microsoft.com/en-US/download/details.aspx?id=29062
 - cellit.rar, download from here http://189.212.132.188/downloads/
 - cellitDB.rar, download from here http://189.212.132.188/downloads/
 
