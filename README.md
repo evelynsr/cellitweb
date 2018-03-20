@@ -1,7 +1,7 @@
-CellitWeb
+##BgMobile
 
 =======================
-![logo](https://user-images.githubusercontent.com/4268634/37671312-127709d0-2c31-11e8-8626-f4ff7bdc5ade.png)
+![logo BgMobile](https://user-images.githubusercontent.com/4268634/37671312-127709d0-2c31-11e8-8626-f4ff7bdc5ade.png)
 
 Introduction
 ------------
