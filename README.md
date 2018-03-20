@@ -31,7 +31,6 @@ These instructions will get you a copy of the project up and running on your loc
           dev.cellit.user    = username
           dev.cellit.pass    = password
 
-Now save inside C:\xampp\htdocs\cellit_v3\config\autoload
 
 ### Installing Windows
 ------------
@@ -39,7 +38,7 @@ Now save inside C:\xampp\htdocs\cellit_v3\config\autoload
 - Copy the downloaded "cellit" folder inside the "htdocs" folder. (Path: C:\xampp\htdocs)
 - Change folder name "cellit" to "cellit_v3"
 - After unzipping vendor.rar you must copy folder "vendor" and paste inside your cellit_v3 project
-- The same with the file "config.ini", you must obtain it from the previously unzippinp folder and paste in the following path of your "cellit" project: C:\xampp\htdocs\cellit_v3\config\autoload
+- Now save the file "config.ini" inside C:\xampp\htdocs\cellit_v3\config\autoload
 - Open the config.ini file, change the parameters dev.cell.server, dev.cellit.user and dev.cellit.pass, corresponding to your instance in SQL Server.
 - In a console, position yourself on the project path (C: \ xampp \ htdocs \ cellit_v3) and execute the following command:
 `npm install`
