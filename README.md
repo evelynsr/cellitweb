@@ -5,11 +5,12 @@ The BgMobile Web application is developed to work together with Pervacio Trade-I
 
 ------------
 ## Getting Started
-------------
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
 ------------
+### Prerequisites
+
 - Node JS, download from here https://nodejs.org/en/download
 - GruntJS, run your command shell as Administrator (for Windows) npm install -g grunt-cli.
 - Web server. It can be xampp, that contains Apache and PHP 5.6. You could also install it separately.
@@ -18,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 - vendor.rar. Contains the framework ZF2 and additional tools, this is not versioned, so it's manual. Download from here http://bgmobile.com.mx/sso/vendor.rar
 - Cellit Database. File .bak
 - File config.ini. Create a file "config.ini" inside place the following, changing parameters for your own configuration
-------------------------------
+
           
           ; Execute in dev|prod
           environment = dev
@@ -33,9 +34,9 @@ These instructions will get you a copy of the project up and running on your loc
           dev.cellit.user    = username
           dev.cellit.pass    = password
 
-
-### Installing Windows
 ------------
+### Installing Windows
+
 - Restore the downloaded database (cellit.bak) in SQL Server
 - Copy the downloaded "cellit" folder inside the "htdocs" folder. (Path: C:\xampp\htdocs)
 - Change folder name "cellit" to "cellit_v3"
