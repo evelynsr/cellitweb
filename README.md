@@ -43,8 +43,8 @@ These instructions will get you a copy of the project up and running on your loc
 - After unzipping vendor.rar you must copy folder "vendor" and paste inside your cellit_v3 project
 - Now save the file "config.ini" inside C:\xampp\htdocs\cellit_v3\config\autoload
 - Open the config.ini file, change the parameters dev.cell.server, dev.cellit.user and dev.cellit.pass, corresponding to your instance in SQL Server.
-- The structure of the project should look like this
-<br />
+- The structure of the project should look like this:
+
 ![project structure](https://user-images.githubusercontent.com/4268634/37687394-1495398c-2c61-11e8-9c0d-ccf9d63454b9.PNG)
 
 - In a console, position yourself on the project path (C: \ xampp \ htdocs \ cellit_v3) and execute the following command:
