@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 - SQL Server 2012. Version 11.0.2. https://www.microsoft.com/en-US/download/details.aspx?id=29062
 - cellit.rar. Contains the Project BgMobile. Download from http://bgmobile.com.mx/sso/cellit.rar
 - vendor.rar. Contains the framework ZF2 and additional tools, this is not versioned, so it's manual. Download from here http://bgmobile.com.mx/sso/vendor.rar
-- Cellit Database. File .bak
+- File .bak. Contains cellit Database. Download here http://bgmobile.com.mx/sso/cellitdatabase.rar
 - File config.ini. Create a file "config.ini" inside place the following, changing parameters for your own configuration
 
           
