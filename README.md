@@ -30,6 +30,6 @@ These instructions will get you a copy of the project up and running on your loc
 `grunt dev`
 - Open the application in a Web Browser, for example en Chrome access the link http://localhost/cellit_v3/
 ![exito](https://user-images.githubusercontent.com/4268634/37685446-25cab748-2c59-11e8-86bf-ed6f5157f793.PNG)
-Possible Mistakes
 ------------
-Xampp is missing the .dll to connect to SQL Server
+### Possible Mistakes
+Xampp is missing the .dll to connect to SQL Server. 
