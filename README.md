@@ -16,7 +16,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node JS, download from here https://nodejs.org/en/download
-- GruntJS, run your command shell as Administrator (for Windows) npm install -g grunt-cli.
+- GruntJS, run your command shell as Administrator (for Windows) 
+          
+          npm install -g grunt-cli
+          
 - Web server. It can be xampp, that contains Apache and PHP 5.6. You could also install it separately.
 - SQL Server 2012. Version 11.0.2. https://www.microsoft.com/en-US/download/details.aspx?id=29062
 - cellit.rar. Contains the Project BgMobile. Download from http://bgmobile.com.mx/
